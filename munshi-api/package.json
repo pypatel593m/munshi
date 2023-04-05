@@ -6,7 +6,8 @@
   "author": "Parth Patel",
   "license": "MIT",
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "build": "react-scripts build"
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.15.4",
