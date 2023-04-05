@@ -20,11 +20,11 @@ app.set('view engine', 'ejs');
 app.use(express_1.default.urlencoded({ extended: true }));
 app.use(express_1.default.static(path_1.default.join(__dirname, '../../node_modules')));
 exports.db = new pg_1.default.Client({
-    host: "127.0.0.1",
-    user: "patelp",
+    host: "ec2-34-197-91-131.compute-1.amazonaws.com",
+    user: "ujfpumpucktagc",
     port: 5432,
-    password: "password",
-    database: "munshidb"
+    password: "8fcdd0e4ac20e5b27dd3835d411c08e27570c42f64db0442f0b668bc3f2ce9a6",
+    database: "d18qm14l1jahu3"
 });
 exports.db.connect();
 app.post("/login", (req, res) => {
